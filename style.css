@@ -1,0 +1,706 @@
+/*
+	Reset the spacing between browser border and site content
+*/
+@import url("https://use.typekit.net/qgs5cru.css");
+
+body {
+	margin: 0;
+}
+
+
+/*
+	Basic setup for the different sections of the site
+*/
+
+.section {
+	width: 100%;
+	height: 2000px;
+	overflow: hidden;
+}
+.section-1 {
+	background: white;
+}
+.section-2 {
+	background: white;
+}
+.section-3 {
+	background: white;
+}
+.section-4 {
+	background: white;
+} 
+
+
+.h1 {
+	font-family: antique-olive, sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+
+
+
+/*
+	Setup for the objects that will act as layers
+*/
+
+.obj-wrapper {
+	width: 1440px;
+	height: 900px;
+	margin: 20 0 0 10;
+}
+	.obj {
+		background: none;
+	
+		
+
+		width: 100px;
+		height: 100px;
+
+		text-align: justify;
+		font-family: antique-olive, sans-serif;
+		font-size: 12px;
+		font-weight: 400;
+		font-style: italic;
+	}
+
+
+
+
+	/* Section 1 */
+
+	.section-1 .obj-1 {
+		margin: 75px 0 0 75px;
+		width: 760px;
+		height: 385px;
+		background-image: url(photos/2300.png);
+		box-shadow: none;
+	}
+	.section-1 .obj-2 {
+		margin: 0 0 0 10px;
+		width: 1440px;
+		height: 900px;
+		background-image: url(photos/house1.png);
+		box-shadow: none;
+	}
+	.section-1 .obj-3 {
+		margin: 650px 0 0 1075px;
+		width: 0px;
+		height: 0px; 
+	}
+
+	
+	.section-1 .obj-4 {
+		margin: 500px 0 0 350px;
+		width:137px;
+		height: 226px;
+		background-image: url(photos/forsale.png);
+		box-shadow: none;
+
+	}
+
+	.section-1 .obj-5 {
+		margin: 490px 0 0 1075px;
+		width: 250px;
+		height: 155px;
+		background-image: url(photos/dialog.png);
+		box-shadow: none;
+		
+
+	}
+
+		.section-1 .obj-6 {
+		margin: 450px 0 0 850px;
+		width: 79px;
+		height: 62px;
+		background-image: url(photos/people3.gif);
+		box-shadow: none;
+
+	}
+
+	.section-1 .obj-7 {
+		margin: 660px 0 0 1150px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/play2.png);
+		box-shadow: none;
+
+	}
+
+	.section-1 .obj-7:hover {
+		opacity: 1;
+	}
+
+	.section-1 .obj-8 {
+		margin: 660px 0 0 1210px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/pause2.png);
+		box-shadow: none;
+
+	}
+
+	.section-1 .obj-8:hover {
+		opacity: 1;
+	}
+
+
+	/* Section 2 */
+
+	.section-2 .obj-1 {
+		margin: 100px 0 0 25px;
+		width: 785px;
+		height: 608px;
+		box-shadow: none;
+		background-image: url(photos/S2.words.png);
+	}
+	.section-2 .obj-2 {
+		margin: 200px 0 0 10px;
+		width: 1440px;
+		height: 900px;
+		background-image: url(photos/house2.png);
+		box-shadow: none;
+	}
+	.section-2 .obj-3 {
+		margin: 200px 0 0 900px;
+		width: 0;
+		height: 0;
+	}
+	.section-2 .obj-4 {
+		margin: 240px 0 0 900px;
+		width: 250px;
+		height: 250px;
+		background-image: url(photos/dialog2.png);
+		box-shadow: none;
+	}
+
+		.section-2 .obj-5 {
+		margin: 600px 0 0 250px;
+		width: 400px;
+		height: 400px;
+		background-image: url(photos/panneling.png);
+		box-shadow: none;
+	}
+
+		.section-2 .obj-6 {
+		margin: 500px 0 0 400px;
+		width: 300px;
+		height: 250px;
+		background-image: url(photos/floor.png);
+		box-shadow: none;
+	}
+
+	.section-2 .obj-7 {
+		margin: 175px 0 0 965px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/play2.png);
+		box-shadow: none;
+	}
+
+	.section-2 .obj-7:hover {
+		opacity: 1;
+	}
+
+	.section-2 .obj-8 {
+		margin: 175px 0 0 1025px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/pause2.png);
+		box-shadow: none;
+	}
+
+	.section-2 .obj-8:hover {
+		opacity: 1;
+	}
+
+
+
+
+
+
+
+	/* Section 3 */
+
+	.section-3 .obj-1 {
+		margin: 525px 0 0 420px;
+		width: 587px;
+		height: 218px;
+		background-image: url(photos/house3.5.png);
+		box-shadow: none;
+	}
+	.section-3 .obj-2 {
+		margin: 300px 0 0 595px;
+		width: 250px;
+		height: 150px;
+		background-image: url(photos/dialog3.png);
+	}
+	.section-3 .obj-3 {
+		margin: 425px 0 0 595px;
+		height: 0px;
+		width: 0px; 
+		
+	}
+	.section-3 .obj-4 {
+		margin: 875px 0 0 720px;
+	}
+
+	.section-3 .obj-5 {
+		margin: 875px 0 0 420px;
+		width: 400px;
+		height: 40px;
+		background-image: url(photos/record.png);
+	}
+
+	.section-3 .obj-7 {
+		margin: 425px 0 0 660px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/play2.png);
+		box-shadow: none;
+	}
+
+	.section-3 .obj-7:hover {
+		opacity: 1;
+	}
+
+	.section-3 .obj-8 {
+		margin: 425px 0 0 725px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/pause2.png);
+		box-shadow: none;
+	}
+
+	.section-3 .obj-8:hover {
+		opacity: 1;
+	}
+
+	.section-3 .obj-9 {
+		margin: 870px 0 0 820px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/play2.png);
+		box-shadow: none;
+	}
+
+	.section-3 .obj-9:hover {
+		opacity: 1;
+	}
+
+	.section-3 .obj-10 {
+		margin: 870px 0 0 885px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/pause2.png);
+		box-shadow: none;
+	}
+
+	.section-3 .obj-10:hover {
+		opacity: 1;
+	}
+
+
+
+
+
+
+
+	/* Section 4 */
+	.section-4 .obj-1 {
+		margin: 450px 0 0 700px;
+		width: 624px;
+		height: 504px;
+		background-image: url(photos/s4.words.png);
+	}
+	.section-4 .obj-2 {
+		margin: 200px 0 0 10px;
+		width: 1440px;
+		height: 900px;
+		background-image: url(photos/house3.png);
+		box-shadow: none;
+	}
+	.section-4 .obj-3 {
+		margin: 750px 0 0 1000px;
+		height: 400px;
+		line-height: 400px;
+	}
+	.section-4 .obj-4 {
+		margin: 800px 0 0 300px;
+		width: 250px;
+		height: 500px;
+		background-image: url(photos/Painting.png);
+	}
+
+	.section-4 .obj-5 {
+		margin: 0px 0 0 0px;
+		width: 1440px;
+		height: 900px;
+		background-image: url(photos/paintchips.png);
+	}
+
+	.section-4 .obj-7 {
+		margin: 1000px 0 0 1150px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/play2.png);
+		box-shadow: none;
+	}
+
+	.section-4 .obj-7:hover {
+		opacity: 1;
+	}
+
+	.section-4 .obj-8 {
+		margin: 1000px 0 0 1215px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/pause2.png);
+		box-shadow: none;
+	}
+
+	.section-4 .obj-8:hover {
+		opacity: 1;
+	}
+
+
+
+
+
+	/* Section 5 */
+	.section-5 .obj-1 {
+		margin: 200px 0 0 0px;
+		width: 1440px;
+		height: 900px;
+		background-image: url(photos/s4background.png);
+	}
+	.section-5 .obj-2 {
+		margin: 200px 0 0 0px;
+		width: 1440px;
+		height: 900px;
+		background-image: url(photos/house4.png);
+		box-shadow: none;
+	}
+	.section-5 .obj-3 {
+		margin: 400px 0 0 500px;
+		width: 509px;
+		height: 327px;
+		
+		
+	}
+	.section-5 .obj-4 {
+		margin: 600px 0 0 340px;
+	}
+
+
+
+
+
+/* Section 6 */
+	.section-6 .obj-1 {
+		margin:  250px 0 0 10px;
+		width: 815px;
+		height: 361px;
+		background-image: url(photos/s6words.png);
+	}
+	.section-6 .obj-2 {
+		margin: 200px 0 0 10px;
+		width: 1440px;
+		height: 900px;
+		background-image: url(photos/house4.png);
+		box-shadow: none;
+	}
+	.section-6 .obj-3 {
+		margin: 425px 0 0 595px;
+		height: 400px;
+		line-height: 400px;
+	}
+	.section-6 .obj-4 {
+		margin: 500px 0 0 475px;
+		width: 509px;
+		height: 327px;
+		background-image: url(photos/dinnertable.png);
+	}
+
+	.section-6 .obj-7 {
+		margin: 550px 0 0 660px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/play2.png);
+		box-shadow: none;
+	}
+
+	.section-6 .obj-7:hover {
+		opacity: 1;
+	}
+
+	.section-6 .obj-8 {
+		margin: 550px 0 0 735px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/pause2.png);
+		box-shadow: none;
+	}
+
+	.section-6 .obj-8:hover {
+		opacity: 1;
+	}
+
+
+
+/* Section 7 */
+	.section-7 .obj-1 {
+		margin: 200px 0 0 100px;
+		width: 250px;
+		height: 200px;
+		background-image: url(photos/dialog5.png);
+	}
+	.section-7 .obj-2 {
+		margin: 200px 0 0 10px;
+		width: 1440px;
+		height: 900px;
+		background-image: url(photos/house5.png);
+		box-shadow: none;
+	}
+	.section-7 .obj-3 {
+		margin: 200px 0 0 100px;
+		height: 400px;
+		line-height: 400px;
+	}
+	.section-7 .obj-4 {
+		margin: 5px 0 0 340px;
+	}
+
+	.section-7 .obj-7 {
+		margin: 375px 0 0 165px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/play2.png);
+		box-shadow: none;
+	}
+
+	.section-7 .obj-7:hover {
+		opacity: 1;
+	}
+
+	.section-7 .obj-8 {
+		margin: 375px 0 0 230px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/pause2.png);
+		box-shadow: none;
+	}
+
+	.section-7 .obj-8:hover {
+		opacity: 1;
+	}
+
+
+
+
+
+	/* Section 8 */
+	.section-8 .obj-1 {
+		margin: 300px 0 0 0px;
+		width: 1440px;
+		height: 481px;
+		background-image: url(photos/s8words.png);
+	}
+	.section-8 .obj-2 {
+		margin: 300px 0 0 10px;
+		width: 1440px;
+		height: 900px;
+		background-image: url(photos/house6.png);
+		box-shadow: none;
+	}
+	.section-8 .obj-3 {
+		margin: 775px 0 0 1100px;
+		
+	}
+	.section-8 .obj-4 {
+		margin: 805px 0 0 1100px;
+
+	}
+
+	.section-8 .obj-7 {
+		margin: 100px 0 0 660px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/play2.png);
+		box-shadow: none;
+	}
+
+	.section-8 .obj-7:hover {
+		opacity: 1;
+	}
+
+	.section-8 .obj-8 {
+		margin: 100px 0 0 725px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/pause2.png);
+		box-shadow: none;
+	}
+
+	.section-8 .obj-8:hover {
+		opacity: 1;
+	}
+
+	.section-8 .obj-9 {
+		margin: 1100px 0 0 660px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/play2.png);
+		box-shadow: none;
+	}
+
+	.section-8 .obj-9:hover {
+		opacity: 1;
+	}
+
+	.section-8 .obj-10 {
+		margin: 1100px 0 0 725px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/pause2.png);
+		box-shadow: none;
+	}
+
+	.section-8 .obj-10:hover {
+		opacity: 1;
+	}
+
+
+
+
+
+/* Section 9 */
+	.section-9 .obj-1 {
+		margin: 600px 0 0 425px;
+		width: 602px;
+		height: 130px;
+		background-image: url(photos/thankyoumom2.png);
+		box-shadow: none;
+	}
+	.section-9 .obj-2 {
+		margin: 500px 0 0 425px;
+		width: 602px;
+		height: 133px;
+		background-image: url(photos/house6.5.png);
+		box-shadow: none;
+	}
+	.section-9 .obj-3 {
+		margin: 350px 0 0 430px;
+		height: 400px;
+		line-height: 400px;
+	}
+	.section-9 .obj-4 {
+		margin: 600px 0 0 340px;
+	}
+
+	.section-9 .obj-5 {
+		margin: 300px 0 0 450px;
+		width: 398px;
+		height: 195px;
+		background-image: url(photos/hannah.png);
+		box-shadow: none;
+	}
+
+	.section-9 .obj-7 {
+		margin: 305px 0 0 780px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/play2.png);
+		box-shadow: none;
+	}
+
+	.section-9 .obj-7:hover {
+		opacity: 1;
+	}
+
+	.section-9 .obj-8 {
+		margin: 305px 0 0 845px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/pause2.png);
+		box-shadow: none;
+	}
+
+	.section-9 .obj-8:hover {
+		opacity: 1;
+	}
+
+	.section-9 .obj-9 {
+		margin: 1100px 0 0 660px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/play2.png);
+		box-shadow: none;
+	}
+
+	.section-9 .obj-9:hover {
+		opacity: 1;
+	}
+
+	.section-9 .obj-10 {
+		margin: 1100px 0 0 725px;
+		width: 47px;
+		height: 55px;
+		opacity: 0.6;
+		border: none;
+		background-image: url(photos/pause2.png);
+		box-shadow: none;
+	}
+
+	.section-9 .obj-10:hover {
+		opacity: 1;
+	}
+
+
+
+
+
